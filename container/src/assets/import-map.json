@@ -1,0 +1,13 @@
+{
+  "imports": {
+    "app1": "http://localhost:4201/main.js",
+    "app2": "http://localhost:4202/main.js",
+    "app4": "http://localhost:4204/main.js",
+    "ng.core": "global.ng.core"
+  },
+  "scopes": {
+    "ng.core": {
+      "ng.core": "../../node_modules/@angular/core/bundles/core.umd.js"
+    }
+  }
+}
